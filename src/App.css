@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--custom-background-color);
+  font-family: "Poppins", sans-serif !important;
+}
+.UI__DISPLAY {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input {
+  border-radius: 2.2rem !important;
+}
+.Form_Layout {
+  display: flex;
+  justify-content: center;
+}
+.UI__CARD {
+  background: #0b2c46 !important;
+}
+
+.Card__UI {
+  text-align: center;
+  line-height: 1rem !important;
+  color: #fff !important;
+}
+.HUM__SPEED {
+  padding-top: 5rem !important;
+}
+.Card__Title {
+  padding-top: 17px !important;
+  color: #fff !important;
+}
+.Color {
+  color: #fff !important;
+}
